@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Car Trend Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <!-- EXTRA STYLING FOR IMAGES -->
+        <style>
+            .project-images {
+                max-width: 900px;
+                margin: 40px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                align-items: center;
+            }
+
+            .project-images img {
+                width: 85%;
+                max-width: 700px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            }
+
+            /* Special styling for tall image */
+            .project-images img.tall {
+                width: 60%;
+                max-width: 450px;
+            }
+        </style>
+	</head>
+
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+			
+            <header id="header">
+                <h1><a href="index.html">AKSHAT SHARMA</a></h1>
+                <nav><a href="#menu">Menu</a></nav>
+            </header>
+
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="resume.html">RESUME</a></li>
+						<li><a href="https://medium.com/@akshatsharma5877">BLOGS</a></li>
+						<li><a href="generic.html">CERTIFICATES</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+            <!-- Main Content -->
+            <section id="main" class="wrapper">
+                <h2 style="text-align: center;">AutoNexus – Project Overview</h2>
+
+                <p style="max-width: 900px; margin: 0 auto; text-align: center;">
+                    AutoNexus is a complete end-to-end used-car price prediction system built with a modern MLOps workflow.
+                    It integrates machine learning, automated pipelines, cloud infrastructure, and real-time deployment using tools
+                    like DagsHub, MLflow, Optuna, FastAPI, and AWS services. The project handles everything from data processing
+                    and model experimentation to deployment and scaling in production.
+                </p>
+
+                <div style="max-width: 900px; margin: 40px auto;">
+                    <h3>Machine Learning & MLOps</h3>
+                    <ul>
+                        <li>Scikit-learn for training regression models</li>
+                        <li>Feature-engine for preprocessing and feature engineering</li>
+                        <li>Optuna for hyperparameter optimization</li>
+                        <li>MLflow for experiment tracking and model versioning</li>
+                        <li>DagsHub for remote experiments & artifact storage</li>
+                    </ul>
+
+                    <h3>API & Deployment Layer</h3>
+                    <ul>
+                        <li>FastAPI for inference API</li>
+                        <li>Uvicorn as the server</li>
+                        <li>Docker for containerization</li>
+                        <li>GitHub Actions + CodeDeploy for CI/CD</li>
+                        <li>Optimized model loading for faster response</li>
+                    </ul>
+
+                    <h3>Cloud Infrastructure (AWS)</h3>
+                    <ul>
+                        <li>EC2 instances hosting FastAPI</li>
+                        <li>Elastic Load Balancer for routing and health checks</li>
+                        <li>Auto Scaling Group for scalability</li>
+                        <li>S3 for storing recommendation artifacts</li>
+                        <li>CloudWatch for monitoring</li>
+                        <li>IAM roles & Parameter Store for secure secrets</li>
+                    </ul>
+                    <strong>The complete source code is available in the repository—feel free to fork! - </strong><a href="https://github.com/akshatsharma2407/AutoNexusMlOps">Github</a>
+                        </br>
+                        </br>
+                    <strong>Check Out the Blogs related to the project on - </strong><a href="https://medium.com/@akshatsharma5877">Medium</a>
+                </div>
+
+
+                <!-- PROJECT IMAGES (IMPROVED LAYOUT) -->
+                <div class="project-images">
+                    <img src="images/main_page1.png" alt="Main Page 1">
+                    <img src="images/prediction.png" class="tall" alt="Prediction Page">
+                    <img src="images/blogs.png" alt="Blogs Page">
+                    <img src="images/flowdiag.png" alt="Blogs Page">
+
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                        src="https://www.canva.com/design/DAG5mOGzxzI/qJFeWREsQHA_PPDpEUuJ0w/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
+                </div>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch</h2>
+					<p>I'm always eager to collaborate on exciting data science projects...</p>
+					
+					<div class="contact-info">
+						<ul class="contact">
+							<li class="icon solid fa-home">Indore <br> Madhya Pradesh, India</li>
+							<li class="icon solid fa-envelope">
+								<a href="mailto:akshatsharma5877@gmail.com">akshatsharma5877@gmail.com</a>
+							</li>
+							<li class="icon solid fa-phone">
+								<a href="https://wa.me/919669667802">+91 9669667802</a>
+							</li>
+						</ul>
+					</div>
+
+					<ul class="copyright">
+						<li>&copy; Untitled Inc. All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+	</body>
+</html>
